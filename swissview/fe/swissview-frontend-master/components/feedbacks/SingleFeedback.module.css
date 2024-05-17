@@ -1,0 +1,53 @@
+.Feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    padding: 1em;
+
+    background-color: var(--accent40);
+    border-radius: 10px;
+    border: 1px solid var(--secondary);
+}
+
+.headingRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.feedbackerCantonIcon {
+    height: 2em;
+}
+
+.feedbackerName {
+    color: var(--text);
+}
+
+.feedbackerText {
+    color: var(--text);
+    font-style: italic;
+}
+
+.buttonRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.answerButtonRow {
+    display: flex;
+    gap: 0.5em;
+}
+
+.answerForm {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.answerForm textarea {
+    flex-grow: 1;
+}

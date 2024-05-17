@@ -1,0 +1,112 @@
+.map {
+    margin-top: 2em;
+}
+
+.map a,
+.map a:visited {
+    fill: whitesmoke;
+}
+
+.ag:hover {
+    fill: url(#agcrest);
+}
+
+.ai:hover {
+    fill: url(#aicrest);
+}
+
+.ar:hover {
+    fill: url(#arcrest);
+}
+
+.be:hover {
+    fill: url(#becrest);
+}
+
+.bl:hover {
+    fill: url(#blcrest);
+}
+
+.bs:hover {
+    fill: url(#bscrest);
+}
+
+.fr:hover {
+    fill: url(#frcrest);
+}
+
+.ge:hover {
+    fill: url(#gecrest);
+}
+
+.gl:hover {
+    fill: url(#glcrest);
+}
+
+.gr:hover {
+    fill: url(#grcrest);
+}
+
+.ju:hover {
+    fill: url(#jucrest);
+}
+
+.lu:hover {
+    fill: url(#lucrest);
+}
+
+.ne:hover {
+    fill: url(#necrest);
+}
+
+.nw:hover {
+    fill: url(#nwcrest);
+}
+
+.ow:hover {
+    fill: url(#owcrest);
+}
+
+.sg:hover {
+    fill: url(#sgcrest);
+}
+
+.sh:hover {
+    fill: url(#shcrest);
+}
+
+.so:hover {
+    fill: url(#socrest);
+}
+
+.sz:hover {
+    fill: url(#szcrest);
+}
+
+.tg:hover {
+    fill: url(#tgcrest);
+}
+
+.ti:hover {
+    fill: url(#ticrest);
+}
+
+.ur:hover {
+    fill: url(#urcrest);
+}
+
+.vd:hover {
+    fill: url(#vdcrest);
+}
+
+.vs:hover {
+    fill: url(#vscrest);
+}
+
+.zg:hover {
+    fill: url(#zgcrest);
+}
+
+.zh:hover {
+    fill: url(#zhcrest);
+}

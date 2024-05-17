@@ -1,0 +1,58 @@
+.buttonRow {
+    display: flex;
+    gap: 0.5em;
+}
+
+.editRow, .profileRow > h1 {
+    padding: 12px;
+    color: var(--secondary);
+}
+
+
+.createBtn,
+.cancelBtn,
+.deleteBtn,
+.editBtn {
+    margin: auto 1em;
+    padding: 0.5em;
+    justify-self: flex-end;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.createBtn {
+    background-color: var(--secondary);
+    color: #f0e8db;
+}
+
+.cancelBtn {
+    background-color: #b9b7b7;
+    color: #656565;
+}
+
+.deleteBtn {
+    margin-left: 0;
+    background-color: var(--detail);
+    color: var(--text);
+    box-shadow: 0.3em 0.3em var(--detailshadow);
+    border: 2px solid black;
+
+    font-weight: bold;
+}
+
+.deleteBtn:active {
+    transform: translateX(0.3em) translateY(0.3em);
+    box-shadow: none;
+}
+
+.editBtn {
+    background-color: var(--primary);
+    color: var(--background);
+    align-self: center;
+}

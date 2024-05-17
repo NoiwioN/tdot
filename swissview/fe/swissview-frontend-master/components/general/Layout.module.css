@@ -1,0 +1,46 @@
+.main {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.imageBackground {
+    background-image: url("/background.png");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+    .imageBackground {
+        background-image: url("/backgroundDark.png");
+    }
+}
+
+.displayFullScreen {
+    width: 100%;
+    height: 100%;
+}
+
+.displayContainer {
+    width: 50%;
+    margin: 5em auto;
+    padding-top: 1em;
+}
+
+@media (max-width: 1600px) {
+    .displayContainer {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .displayContainer {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .displayContainer {
+        width: 90%;
+    }
+}

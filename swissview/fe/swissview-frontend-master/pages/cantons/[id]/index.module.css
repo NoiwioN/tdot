@@ -1,0 +1,11 @@
+.feedbackCommentsContainer {
+    width: 85%;
+    margin: 1em auto 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.feedbackCommentsContainer > * {
+    flex-grow: 1;
+}

@@ -1,0 +1,39 @@
+.popup {
+    position: fixed;
+    width: 18em;
+
+    color: black;
+    background-color: #dfdfdfe0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    padding: 0.75em;
+
+    pointer-events: none;
+}
+
+.popup img{
+    height: auto;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: 3em;
+}
+
+.headerTitle {
+    max-width: 75%;
+    min-height: 3em;
+    font-size: 1.7em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}

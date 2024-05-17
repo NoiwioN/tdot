@@ -1,0 +1,29 @@
+.event li {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.event h2 {
+    margin-right: 4em;
+}
+
+.event img {
+    margin-left: auto;
+    object-fit: contain;
+}
+
+.event p {
+    flex-basis: 100%;
+    margin-top: 1em;
+}
+
+.event a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.event a:hover {
+    color: var(--primary);
+}

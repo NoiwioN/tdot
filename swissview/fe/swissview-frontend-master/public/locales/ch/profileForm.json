@@ -1,0 +1,16 @@
+{
+  "pw": "Passwort: ",
+  "repeatPw": "Widerhou ds Passwort: ",
+  "newPw": "Nöis Passwort: ",
+  "repeatNewPw": "Widerhou ds nöie Passwort: ",
+  "editTitle": "Profiu bearbeite",
+  "profile": "Profiu",
+  "deleteProfile": "Profiu lösche",
+  "cancel": "Abbräche",
+  "update": "Aktualisiäre",
+  "pwError": "Passwörter stimme nid überii",
+  "cantonError": "Keni Kantön gfunge",
+  "loading": "Am lade...",
+  "empty": "Fäud darf nid läär si!"
+
+}

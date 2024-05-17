@@ -1,0 +1,18 @@
+{
+  "title": "Titel:",
+  "description": "Beschribig:",
+  "location": "Ort:",
+  "url": "URL:",
+  "startTime": "Startzyt:",
+  "endTime": "Ändzyt:",
+  "canton": "Kanton:",
+  "dateValidationFailed": "D Ändzyt mues nach der Startzyt lige!",
+  "cantonError": "Keni Kantön gfunge!",
+  "loading": "Lade...",
+  "create": "Ersteue",
+  "update": "Aktualisiere",
+  "createTitle": "Event ersteue",
+  "overviewTitle": "Events",
+  "cancel": "Abbräche",
+  "noEventsFound": "Me hät keni Events gfunde"
+}

@@ -1,0 +1,15 @@
+.FeedbackSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.addFeedbackForm {
+    background-color: var(--accent40);
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border: 1px solid var(--secondary);
+}

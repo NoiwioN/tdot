@@ -1,0 +1,110 @@
+.form {
+    grid-template-columns: max-content 1fr;
+    gap: 1em;
+    margin: 1em 0 3em;
+    display: grid;
+
+    border-radius: 5px;
+}
+
+.form :is(span, label, input, select) {
+    padding: 0.5em;
+    font-size:large;
+}
+
+
+.form > .updateBtn,
+.form .globalError {
+    font-weight: bold;
+    width: max-content;
+    margin-left: auto;
+}
+
+.form button:hover {
+    background-color: var(--lighttransparent80);
+}
+
+.form button:active {
+    transform: translateX(0.3em) translateY(0.3em);
+    box-shadow: none;
+}
+
+
+.form :is(input, textarea, button, select) {
+    box-shadow: 0.3em 0.3em var(--secondary);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: var(--secondarytransparent50);
+    color: var(--text);
+    width: 100%;
+}
+
+.form :is(span:not(.description), label) {
+    font-weight: bold;
+}
+
+
+
+.form .error,
+.form .globalError {
+    color: red;
+    margin-top: 0.3em;
+}
+
+/* Header form */
+
+.headerForm {
+    margin-bottom: 3em;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: max-content max-content 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header titles*/
+.headerForm > h1 {
+    color: var(--primary);
+}
+
+/* Add new ______ */
+.headerForm > input[type="text"],
+.input {
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.noMargins {
+    margin: 0 !important;
+}
+
+
+.form > .updateBtn,
+.form .globalError {
+    grid-column: 2;
+}
+
+
+
+/* Span */
+.span2 {
+    grid-column-end: span 2;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form, .headerForm {
+        grid-template-columns: 1fr;
+    }
+
+    .form > .updateBtn,
+    .form .globalError {
+        grid-column: 1;
+    }
+
+    .span2 {
+        grid-column-end: span 1;
+    }
+}

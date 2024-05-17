@@ -1,0 +1,7 @@
+.profile {
+    width: 6em;
+    height: auto;
+    justify-self:flex-end;
+    position: relative;
+    transform: translateY(1em);
+}

@@ -1,0 +1,32 @@
+.weatherPopUp {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+
+    width: 8em;
+
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+    background-color: rgba(223, 223, 223, 0.3);
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.weatherPopUp img {
+align-self: flex-start;
+}
+
+.infoContainer {
+    margin: auto;
+}
+
+.temperature {
+    font-size: large;
+    font-weight: bold;
+}
+
+.cityName {
+    font-size: large;
+}

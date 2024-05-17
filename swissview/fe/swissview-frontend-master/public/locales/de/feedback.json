@@ -1,0 +1,10 @@
+{
+  "title": "Bewertung",
+  "loading": "Bewertungen werden geladen...",
+  "noFeedback": "Es sind noch keine Bewertungen vorhanden",
+  "create": "Bewertung erstellen",
+  "placeholder": "Deine Bewertung",
+  "feedbackTitel": "Titel deiner Bewertung",
+  "release": "Veröffentlichen",
+  "preRelease": "Veröffentlichen..."
+}

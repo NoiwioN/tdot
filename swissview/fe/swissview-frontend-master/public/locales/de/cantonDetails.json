@@ -1,0 +1,17 @@
+{
+  "attractions" : "Sehenswürdigkeiten",
+  "specials" : "Spezielles",
+  "short" : "Kurzbeschreibung",
+  "area" : "Fläche:",
+  "population" : "Einwohnerzahl:",
+  "joinYear" : "Kanton seit:",
+  "users" : "Users in diesem Kanton:",
+  "profil" : "Steckbrief",
+  "name" : "Name:",
+  "capital" : "Hauptstadt:",
+  "language": "Sprache(n):",
+  "update": "Aktualisieren",
+  "loading": "Laden...",
+  "editCanton": "Kanton bearbeiten",
+  "cancel": "Abbrechen"
+}

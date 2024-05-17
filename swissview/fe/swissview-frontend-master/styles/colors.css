@@ -1,0 +1,36 @@
+:root {
+    --text: #040316;
+    --background: #fbfbfe;
+    --primary: #656565;
+    --primarytransparent50: rgba(101, 101, 101, 0.5);
+    --secondary: #bebebe;
+    --secondarytransparent50: rgba(190, 190, 190, 0.5);
+    --light: #efefef;
+    --lighttransparent80: rgba(255, 255, 255, 0.8);
+    --accent: #3b5997;
+    --accent40: rgba(59, 89, 151, 0.4);
+    --detail: #E7423F;
+    --detailshadow: #c41714;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #eae9fc;
+        --background: #010104;
+        --primary: #787b82;
+        --primarytransparent50: rgba(120, 123, 130, 0.5);
+        --secondary: #404040;
+        --secondarytransparent50: rgba(64, 64, 64, 0.5);
+        --light: #efefef;
+        --lighttransparent80: rgba(255, 255, 255, 0.8);
+        --accent: #6887c4;
+        --accent40: rgba(59, 89, 151, 0.4);
+        --detail: #9B2A24;
+        --detailshadow: #7a0000;
+    }
+
+}
+
+html {
+    background-color: var(--background);;
+}

@@ -1,0 +1,15 @@
+{
+  "pw": "Passwort: ",
+  "repeatPw": "Passwort wiederholen: ",
+  "newPw": "Neues Passwort:  ",
+  "repeatNewPw": "Neues Passwort wiederholen: ",
+  "editTitle": "Profil bearbeiten",
+  "profile": "Profil",
+  "deleteProfile": "Profil löschen",
+  "cancel": "Abbrechen",
+  "update": "Aktualisieren",
+  "pwError": "Passwörter stimmen nicht überein",
+  "cantonError": "Keine Kantöne gefunden",
+  "loading": "Laden...",
+  "empty": "Feld darf nicht leer sein!"
+}

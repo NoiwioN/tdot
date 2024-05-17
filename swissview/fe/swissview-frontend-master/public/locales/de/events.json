@@ -1,0 +1,18 @@
+{
+  "title": "Titel:",
+  "description": "Beschreibung:",
+  "location": "Ort:",
+  "url": "URL:",
+  "startTime": "Startzeit:",
+  "endTime": "Endzeit:",
+  "canton": "Kanton:",
+  "dateValidationFailed": "Die Endzeit muss nach der Startzeit liegen!",
+  "cantonError": "Keine Kantone gefunden!",
+  "loading": "Laden...",
+  "create": "Erstellen",
+  "update": "Aktualisieren",
+  "createTitle": "Event erstellen",
+  "overviewTitle": "Events",
+  "cancel": "Abbrechen",
+  "noEventsFound": "Es wurden leider keine Events gefunden"
+}

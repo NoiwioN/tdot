@@ -1,0 +1,13 @@
+.flag {
+    height: 20px;
+    width: 10px;
+}
+
+.container {
+    display: block;
+
+}
+
+.grey {
+    filter: grayscale(100%);
+}
