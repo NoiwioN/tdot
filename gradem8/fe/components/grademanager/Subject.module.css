@@ -1,0 +1,67 @@
+.Subject {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.subjectHeader {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary);
+    display: grid;
+    grid-template-columns: 1fr 4em 2em 2em;
+    gap: 0.5em;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: large;
+    font-weight: bold;
+    color: #f3f1ef;
+}
+
+.headerBtn {
+    background: none;
+    border: none;
+    padding: 0.2em;
+    color: #f3f1ef;
+    cursor: pointer;
+}
+
+.gradeGrid {
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    gap: 0.5em;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.gradeGrid > p {
+    padding: 0.2em;
+    background-color: var(--backgroundShadow);
+    border-radius: 5px;
+}
+
+.noGradesMsg {
+    display: inline-block;
+}
+
+/* Mobile */
+
+@media (max-width: 1000px) {
+    .gradeGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1000px) {
+    .gradeGrid {
+        grid-template-columns: 5em 5em auto 10em 2em 2em;
+    }
+
+    .noGradesMsg {
+        grid-column: 1/span 5;
+    }
+}

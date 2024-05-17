@@ -1,0 +1,43 @@
+.semesterDisplay {
+    margin: auto;
+}
+
+.semesterView {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+
+    justify-content: center;
+}
+
+.semesterBlock {
+    width: 98%;
+    height: 5em;
+    padding: 1em;
+
+    background-color: var(--accent40);
+    border-radius: 5px;
+    box-shadow: 0.3em 0.3em var(--accent);
+
+    color: var(--text);
+    font-size: x-large;
+    text-decoration: none;
+    align-content: center;
+}
+
+
+.semesterBlock:hover {
+    background-color: var(--accent60);
+}
+
+.semesterBlock:active {
+    box-shadow: none;
+    transform: translateX(0.3em) translateY(0.3em);
+}
+
+@media (min-width: 1000px) {
+    .semesterView {
+        grid-template-columns: 1fr 1fr;
+    }
+}

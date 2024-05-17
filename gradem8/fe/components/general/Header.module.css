@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+    height: 5em;
+    background-color: var(--secondary);
+}
+
+.logoContainer {
+    align-self: start;
+}
+
+.logoContainer img {
+    height: 7em;
+}
+
+.nav {
+    flex-grow: 1;
+    margin-top: auto;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navLink,
+.navLink:active {
+    color: var(--accent);
+    text-decoration: none;
+    height: 3em;
+    padding: 0.8em 3em;
+    font-weight: bold;
+}
+
+.navLink.active {
+    background-color: var(--background);
+    border-radius: 10px 10px 0 0;
+}
+
+.btnLoginLogout {
+    margin-left: auto;
+    height: 3em;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.navToggle {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        gap: 1.5em;
+    }
+
+    .header:not(.navHidden) {
+        height: auto;
+    }
+
+    .header:not(.navHidden) .nav {
+        margin: 1em 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header.navHidden .nav {
+        display: none;
+    }
+
+    .navLink.active {
+        border-radius: 10px;
+    }
+
+    .navToggle {
+        display: block;
+        margin: 2em 2em 2em 0;
+    }
+}

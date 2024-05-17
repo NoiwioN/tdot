@@ -1,0 +1,40 @@
+:root {
+    --text: #04001a;
+    --background: #f0e8db;
+    --backgroundShadow: rgba(187, 180, 171, 0.3);
+    --primary: #e66a1e;
+    --primary40: rgba(230, 107, 30, 0.4);
+    --warning: #d5011a;
+    --warningShadow: rgba(213, 1, 26, 0.4);
+    --secondary: rgb(155, 178, 102);
+    --secondaryLight: #ced2ac;
+    --secondary60: rgba(109, 128, 60, 0.6);
+    --secondary40: rgba(155, 178, 102, 0.4);
+    --accent: rgb(65, 130, 164);
+    --accent40: rgba(65, 130, 164, 0.4);
+    --accent60: rgba(65, 130, 164, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* --text: #fffdf2;
+         --background: #241c0f;
+         --primary: rgb(225, 102, 25);
+         --secondary: rgb(65, 82, 19);
+         --accent: #5b9bbe;*/
+        --text: #f0f0f0;
+        --background: #1a1a1a;
+        --backgroundShadow: rgba(240, 232, 219, 0.3);
+        --primary: #be5601;
+        --primary40: rgba(255, 165, 0, 0.4);
+        --warning: #b7020c; /* Adjusted warning color */
+        --warningShadow: rgba(164, 2, 15, 0.4); /* Adjusted warning shadow */
+        --secondary: #586434; /* Adjusted secondary color */
+        --secondaryLight: #738549; /* Adjusted secondary light color */
+        --secondary60: rgba(159, 178, 102, 0.6); /* Adjusted secondary 60% opacity */
+        --secondary40: rgba(159, 178, 102, 0.4); /* Adjusted secondary 40% opacity */
+        --accent: #4182a4; /* Adjusted accent color */
+        --accent40: rgba(65, 130, 164, 0.4);
+        --accent60: rgba(65, 130, 164, 0.6);
+    }
+}

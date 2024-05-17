@@ -1,0 +1,91 @@
+body {
+    background-color: #efe7da;
+    font-family: "Century Gothic", sans-serif;
+}
+
+header {
+    display: inline-flex;
+    height: 5em;
+    background-color: #9bb266;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.home {
+    margin: auto 20px;
+    padding: 10px 60px;
+}
+
+.grades {
+    margin: auto 20px;
+    background-color: #efe7da;
+    padding: 10px 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.profile {
+    margin: auto 20px;
+    padding: 10px 60px;
+}
+
+.logout {
+    height: 35px;
+    width: 30px;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.gradeDisplay {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.dropdown {
+    border: 2px solid rgb(230, 107, 30);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.dropbtn {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(230, 107, 30);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: large;
+    font-weight: bold;
+    color: #f3f1ef;
+}
+
+.dropdownContent {
+    display: grid;
+    grid-template-columns: 15% 20% 45% 25%;
+    padding: 8px;
+    background-color: #f3f1ef;
+
+}
+
+.arrow {
+    background: none;
+    border: none;
+}
+
+.arrowimg {
+    width: 25px;
+}
+
+.notiz {
+    margin: auto;
+}

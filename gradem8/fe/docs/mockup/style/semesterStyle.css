@@ -1,0 +1,77 @@
+body {
+    background-color: #efe7da;
+    font-family: "Century Gothic", sans-serif;
+}
+
+header {
+    display: inline-flex;
+    height: 5em;
+    background-color: #9bb266;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.home {
+    margin: auto 20px;
+    background-color: #efe7da;
+    padding: 10px 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.grades {
+    margin: auto 20px;
+    padding: 10px 60px;
+
+}
+
+.profile {
+    margin: auto 20px;
+    padding: 10px 60px;
+}
+
+.logout {
+    height: 35px;
+    width: 30px;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.semesterPage {
+    width: 70%;
+    margin: auto;
+}
+
+.semesterGrid {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-content: center;
+}
+
+.semester {
+    margin: auto;
+    width: 10em;
+    height: 12em;
+    padding: 1em;
+    background-color: rgba(65, 130, 164, 0.4);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    height: 1em;
+    margin: 3em auto 1em;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+.errorPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.imgContainer {
+    padding: 2em;
+    max-height: 50vh;
+}
+
+.img404 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

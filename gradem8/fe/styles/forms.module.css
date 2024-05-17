@@ -1,0 +1,117 @@
+.form {
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin: 1em 0 3em;
+    display: grid;
+    padding: 1em;
+    background-color: var(--secondary60);
+    border-radius: 5px;
+}
+
+.form span {
+    margin: 0.5em 1em;
+    padding: 0.5em;
+}
+
+
+.form > .updateBtn,
+.form .globalError {
+    font-weight: bold;
+    width: max-content;
+    margin-left: auto;
+}
+
+.form button:hover {
+    background-color: var(--secondary60);
+    color: var(--background);
+    border: 0.5px solid var(--secondary60);
+}
+
+.form button:active {
+    transform: translateX(0.3em) translateY(0.3em);
+    box-shadow: none;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.form :is(input, textarea, button) {
+    border: 0.5px solid var(--secondaryLight);
+    box-shadow: 0.3em 0.3em var(--secondary);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: var(--secondaryLight);
+    color: var(--text);
+    width: 100%;
+}
+
+.form :is(span:not(.description), label){
+    font-weight: bold;
+}
+
+.description {
+    background-color: var(--secondaryLight);
+    border-radius: 0.5em;
+}
+
+.form .error,
+.form .globalError {
+    color: red;
+    margin-top: 0.3em;
+}
+
+/* Header form */
+
+.headerForm {
+    border: none;
+    width: 100%;
+    margin-bottom: 3em;
+    box-sizing: border-box;
+    background-color: var(--secondaryLight);
+    display: grid;
+    font-size: medium;
+    font-weight: bold;
+    color: #f3f1ef;
+    border-radius: 5px;
+}
+
+/* Header titles*/
+.headerForm > h1 {
+    padding: 12px;
+    color: var(--secondary);
+}
+
+/* Add new ______ */
+.headerForm > input[type="text"],
+.input {
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.noMargins {
+    margin: 0 !important;
+}
+
+@media (min-width: 600px) {
+    .form {
+        grid-template-columns: max-content 3.5fr;
+    }
+
+    .headerForm {
+        grid-template-columns: 1fr auto;
+        justify-content: space-between;
+    }
+
+    .form > .updateBtn,
+    .form .globalError {
+        grid-column: 2;
+    }
+}
+
+/* Span */
+.span2 {
+    grid-column-end: span 2;
+}

@@ -1,0 +1,78 @@
+.howWorksContainer {
+    margin-top: 5em;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgba(65, 130, 164, 0.4);
+    border-radius: 10px;
+}
+
+.howWorksGrid {
+    margin: 0 auto;
+}
+
+.howWorksGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.howWorksGrid > * {
+    background-color: rgba(65, 130, 164, 0.4);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.signUpContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.signUpBtn {
+    background-color: transparent;
+    color: var(--background);
+    border: none;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 850;
+    -webkit-text-stroke: 1.5px var(--text);
+    text-shadow: 2px 2px var(--text);
+}
+
+.signUpBtnLogin {
+    background-color: transparent;
+    color: var(--background);
+
+    border: none;
+    margin-left: 0.5em;
+
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 850;
+    -webkit-text-stroke: 1.5px var(--text);
+    text-shadow: 2px 2px var(--text);
+}
+
+.footer {
+    display: flex;
+    height: 1em;
+    margin: 2em auto 1em;
+    justify-content: center;
+}
+
+@media (min-width: 1000px) {
+    .howWorksContainer {
+        flex-direction: row;
+    }
+
+    .howWorksQuestion {
+        flex-basis: 30%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}
