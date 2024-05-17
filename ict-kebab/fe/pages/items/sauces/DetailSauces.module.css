@@ -1,0 +1,46 @@
+.detail-container-styling {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: grid;
+  grid-template-columns: 1fr; /* Eine Spalte */
+  grid-template-rows: auto auto; /* Zwei Zeilen */
+  grid-gap: 20px;
+}
+
+.detail-container-styling h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detail-container-styling p {
+  margin-bottom: 8px;
+}
+
+.detail-buttons-container {
+  text-align: right;
+  margin-top: -40px; /* Verschiebt den Container um 20px nach oben */
+}
+
+
+.button {
+  margin-right: 1.5%;
+  background-color: var(--secondary);
+  border: none;
+  color: var(--background);
+  padding: 1% 4%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: var(--secondary-hover);
+}

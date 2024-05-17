@@ -1,0 +1,34 @@
+/* Food.module.css */
+
+.food {
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .foodTitle {
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .foodLink {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .foodLink:hover {
+    color: var(--primary-hover);
+  }

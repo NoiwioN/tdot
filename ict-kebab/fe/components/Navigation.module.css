@@ -1,0 +1,43 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.link {
+  display: block;
+  color: var(--primary);
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.link:hover {
+  transform: scale(1.2);
+}
+
+.shoppingcart {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.shoppingcart:hover {
+  transform: scale(1.2);
+}

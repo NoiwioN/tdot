@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--background);
+    text-align: center;
+    padding: 0.5%;
+    height: 5%;
+}
+
+.footerText{
+    transform: translateY(25%);
+}

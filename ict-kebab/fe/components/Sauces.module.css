@@ -1,0 +1,34 @@
+/* Food.module.css */
+
+.sauces {
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .saucesTitle {
+    color: var(--secondary);
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .saucesLink {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+  
+  .saucesLink:hover {
+    color: var(--secondary-hover);
+  }

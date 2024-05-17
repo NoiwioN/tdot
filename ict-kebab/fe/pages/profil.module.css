@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+.title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+.text {
+    font-size: 24px;
+}
+  
+.btn {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: var(--text);
+    font-size: 20px;
+  }
+
+  .btnChange {
+    background-color: var(--accent);
+  }
+
+  .btnChange:hover {
+    background-color: var(--accent-hover);
+  }
+
+  .btnDelete {
+    background-color: var(--primary);
+  }
+
+  .btnDelete:hover {
+    background-color: var(--primary-hover);
+  }
+
+  .btnLogout {
+    background-color: var(--accent);
+  }
+
+    .btnLogout:hover {
+        background-color: var(--accent-hover);
+}  
+  
+.button:hover {
+    background-color: var(--accent-hover);
+  }
+  
