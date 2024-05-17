@@ -1,0 +1,151 @@
+@import url("https://use.typekit.net/ktt6cvx.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text: #f6f6f6;
+    --text-dark: #080808;
+
+    --success: #19af1e;
+    --error: #d13538;
+
+    --background: #133e3a;
+    --background-dark: #0d2321;
+    --background-light: #3f5d5b;
+
+    --primary: #d64a4b;
+
+    --secondary: #f8b547;
+
+    --accent: #34bd59;
+
+    --muted: #616161;
+
+    --popover: 0, 0%, 96%;
+
+    --muli: "muli", sans-serif;
+    --nunito-sans: "nunito-sans", sans-serif;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .text {
+    @apply text-base font-bold font-nunitoSans;
+  }
+
+  .title {
+    @apply text-4xl font-black font-muli;
+  }
+
+  .nav-link {
+    @apply border-b-2 border-transparent transition-all duration-300;
+  }
+
+  .nav-link p {
+    @apply px-4;
+  }
+
+  .nav-link-active {
+    @apply border-secondary;
+  }
+
+  .nav-link:hover {
+    @apply border-secondary;
+  }
+
+  .btn {
+    @apply px-8 py-2 rounded-[15px] text transition-all duration-300 items-center flex;
+  }
+
+  .btn:hover {
+    @apply opacity-80;
+  }
+
+  .btn-white {
+    @apply bg-text text-textDark;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-text;
+  }
+
+  .btn-active {
+    @apply bg-secondary text-textDark;
+  }
+
+  .btn-muted {
+    @apply bg-muted text-[#828282];
+  }
+
+  .select {
+    @apply bg-background text-sm font-medium border-2 border-text rounded-lg text px-2 py-2 w-full;
+  }
+}
+
+.input-noFocus:focus {
+  outline: 4px solid var(--background);
+}
+
+.form-item {
+  position: relative;
+  background-color: var(--background);
+}
+
+.form-item input,
+.form-item textarea {
+  padding: 10px 16px 12px 16px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 15px;
+  z-index: 1;
+  background-color: transparent;
+  border-width: 2px;
+}
+
+.form-item input:focus,
+.form-item textarea:focus {
+  outline: none;
+  border-color: var(--secondary);
+}
+
+.form-item label {
+  position: absolute;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  left: 18px;
+  transition: 0.1s ease-in;
+  font-size: 1rem;
+  z-index: 0;
+}
+
+.form-item-translate label {
+  top: 12px;
+  left: 18px;
+}
+
+.form-item input:focus + label,
+label.up,
+.form-item textarea:focus + label {
+  top: -15px;
+  left: 15px;
+  font-size: 0.8rem;
+  background-color: inherit;
+  padding: 2px 5px;
+  z-index: 2;
+  background-color: var(--background);
+}
+
+.shadow-custom {
+  box-shadow: 0 0 10px 0 #0309084b;
+}
