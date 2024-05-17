@@ -53,4 +53,4 @@ export const putJSON = createFetchFunction("PUT")
 export const deleteJSON = createFetchFunction("DELETE")
 
 
-export const BASE_URL = "http://localhost:8080"
+export const BASE_URL = "http://192.168.2.136:8083"
